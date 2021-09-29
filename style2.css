@@ -1,0 +1,118 @@
+/*styling the pictures and the description from home page*/
+.gallery2 img{
+    float: left;
+    padding: 5px;
+    margin: 75px 30px 25px 20px;
+    position:static;
+    width: 33.33%;
+    height: auto;
+    display: block;
+}
+.logo a{
+    position: static;
+    float: left;
+    padding: 50px 300px 25px 650px;
+    max-width: 60%;
+}
+
+.gallery2 :hover{
+    border: 50%;
+    border-color: black;
+    opacity: 90%;
+}
+
+div.gallery2 img :hover{
+    background-color: black;;
+}
+
+div.desc {
+    padding: 15px 100px 15px 25px;
+    float:right;
+    font-size: large;
+    align-self: auto;
+    color: red;
+    font-family: monospace;
+    text-decoration: wavy;
+    position: static;
+    
+}
+
+div.gallery2 {
+    margin: 100px 50px -160px 25px;
+    float: left;
+    width: 380px;
+    position:relative;
+    display: block;
+  }
+  
+div.gallery2:hover {
+    border: 0px solid black;
+  }
+  
+div.gallery2 img {
+    width: 100%;
+    height: auto;
+    float: center;
+    text-align: center;
+  }
+
+div.gallery2 logo{
+    float: center;
+    text-align: center;
+}
+
+body{
+    background-image: url("images/1.jpeg");
+    background-repeat:initial;
+    background-position: right top;
+    margin: auto;
+}
+
+h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    width: 24px 10px 50px 26px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-style: italic
+}
+
+h2{
+    text-align: center;
+}
+
+.Heroparanotes h4{
+    font-family: Impact, fantasy;
+    text-align: center;
+    font-size: 30px;
+    margin: 90px 460px 10px 25px;
+    color: navy;
+    font-style: italic;
+}
+
+h5{
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+    margin: 90px 460px 10px 25px;
+    color: white;
+}
+
+.Heroparanotes h3{
+    font-family: Impact, fantasy;
+    width: 24px 10px 50px 26px;
+    text-align: center;
+    font-size: 30px;
+    float: inherit;
+    margin: 180px 460px -50px 25px;
+    color: navy;
+    font-style: italic;
+
+}
+
+p{
+    font-family: Helvetica, sans-serif;
+    color: white;
+    margin: 180px 25px -150px 55px;
+    padding-top: inherit;
+}
